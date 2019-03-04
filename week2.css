@@ -11,6 +11,7 @@ html, body{
 #header{
   height: 10%;
   box-sizing: border-box;
+  padding-top:15px;
 }
 #content {
   height: 80%;
@@ -25,6 +26,7 @@ html, body{
   position: absolute;
   bottom: 0;
   width: 100%;
+  padding-top:15px;
 }
 
 /*img{
@@ -42,14 +44,14 @@ p{
 
 #pic{
   background-image:url( "./image.jpg");
-  height: 70%;
+  height: 85%;
   width: 70%;
   background-repeat: no-repeat;
   background-size:100%;
   z-index:3;
   display: inline-block;
   margin: 0px auto;
-  margin-top: 7%;
+  margin-top: 2%;
 }
 #cube{
   background-color:#FAFAFA;
@@ -62,7 +64,7 @@ p{
 }
 
 #tit{
-  margin-top : 16%;
+  margin-top : 13%;
   text-align: center;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
@@ -77,5 +79,22 @@ p{
 }
 
 .left{
+  folat: left;
   margin-left: 20px;
+}
+#text1{
+  display: inline-block;
+  width: 150px;
+  height: 200px;
+  margin: 0;      
+}
+
+#text2{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  padding-top:30px;
+  text-align: left;
+
 }
