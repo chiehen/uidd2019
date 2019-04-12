@@ -16,6 +16,7 @@ int main(void)
     printf("編號  餐點          價錢\n");
     printf("===========================\n");
     int i;
+	//git practice
     for(i=0;i<12;i++)//顯示菜單
     {
         printf("%s   %-18s %d元\n",code[i],name[i],price[i]);
